@@ -1,3 +1,8 @@
+# TODOs
+- Botões da navbar expandem onHover, mostrando os textos
+  - O que é regionalização
+  - Tipos de integração regional
+
 # Basic export example
 
 This example shows the most basic usage of `next export`. Without `exportPathMap`.
