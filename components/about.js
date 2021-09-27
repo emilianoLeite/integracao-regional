@@ -1,6 +1,7 @@
 export default function About() {
   return (
-    <section>
+    <section className="container no-padding-mobile" style={{"margin-bottom": "50px"}}>
+      
       <h2>
         O que é
       </h2>

@@ -1,4 +1,5 @@
 import Navbar from '../components/navbar'
+import Hero from '../components/Hero'
 import About from '../components/about'
 import IntegrationTypes from '../components/integration_types'
 import Quizzes from '../components/quizzes'
@@ -9,8 +10,8 @@ export default function Home() {
     
     <Navbar/>
     <main>
-      <h1> Integração Regional </h1>
-      <p> Subtítulo do site</p>
+      <Hero/>
+      
 
       <About/>
       <IntegrationTypes/>

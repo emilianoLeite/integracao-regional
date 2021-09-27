@@ -2,14 +2,13 @@ import Link from 'next/link'
 
 export default function IntegrationTypes() {
   return (
-<section>
-      <div class="container no-padding-mobile">
-        <div class="content-inner-padding">
-        <div class="alternative-title-wrapper">
-        <h3 class="alternative-title">My favorite resources
-      
-      </h3>
-      
+  <section 
+    style={{"margin-bottom": "50px"}}
+    className="container no-padding-mobile"
+  >
+    <div class="content-inner-padding">
+      <div class="alternative-title-wrapper">
+        <h3 class="alternative-title">My favorite resources</h3>
       </div>
       <div class="w-layout-grid grid-thirds">
         <a href="#" class="grid-link w-inline-block" data-bcup-haslogintext="no">
@@ -81,12 +80,10 @@ export default function IntegrationTypes() {
       </a>
       
       </div>
-      
-      </div>
-      
-      </div>
-      
-      
-      </section>
+    </div>
+    
+    
+        
+  </section>
   )
 }
