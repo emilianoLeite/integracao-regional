@@ -1,0 +1,47 @@
+.answerLabel {
+  margin-bottom:5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.webflowButton {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 32px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #332a4f;
+  font-size: 1.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.answerButton {
+  composes: webflowButton;
+  max-width: 33%;
+  margin-bottom: 10px;
+}
+
+.answerButton:active { 
+  transform: translate(0px, -2px);
+} 
+
+.secondaryButton {
+  composes: webflowButton;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 16px 32px;
+  border-radius: 32px;
+  background-color: transparent;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: #332a4f;
+  border: 1px solid #a093ca;
+}

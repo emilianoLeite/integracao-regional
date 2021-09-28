@@ -27,7 +27,7 @@ export default function Navbar(){
         </Link>
         
     </nav>
-          <div class="w-nav-button" style={{"-webkit-user-select": "text"}} aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false" ><div class="w-icon-nav-menu"></div></div></div><div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+          <div class="w-nav-button" style={{"-webkit-user-select": "text"}} aria-label="menu" role="button" tabIndex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false" ><div class="w-icon-nav-menu"></div></div></div><div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
           </div>
   )
 }
