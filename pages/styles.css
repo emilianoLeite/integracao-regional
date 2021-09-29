@@ -1778,3 +1778,7 @@
   .today-easter-font {
     font-family: 'Today-Easter';
   }
+
+  p {
+    text-align: justify;
+  }

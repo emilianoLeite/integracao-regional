@@ -1,3 +1,7 @@
+.header {
+  text-align: center;
+}
+
 .watermark {
   opacity: 0.2;
   color: BLACK;
@@ -19,7 +23,7 @@
 
 .splitSection .halfSection {
   width: 50%;
-  padding: 96px 5em 96px 2em;
+  padding: 48px 5em 48px 2em;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -29,4 +33,8 @@
   -ms-flex-align: start;
   align-items: flex-start;
   position: relative;
+}
+
+.mainText { 
+  padding: 0px 5em 0px 16.84px;
 }
