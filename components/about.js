@@ -1,32 +1,45 @@
 export default function About() {
   return (
-    <section className="container no-padding-mobile" style={{marginBottom: "50px"}}>
+    <section className="container no-padding-mobile" style={{
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "space-evenly",
+      marginBottom: "50px"
+    }}>
       
-      <h2>
+      <h2 style={{
+        width: "100%"
+      }}>
         O que é
       </h2>
-      <article>
-        <p>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus tincidunt leo, et dapibus ante accumsan eget. In neque urna, iaculis eu augue nec, malesuada lacinia urna. Fusce sit amet enim massa. Maecenas venenatis, lectus quis bibendum blandit, lacus sapien egestas ex, a pulvinar mauris enim sed nulla. In quis tincidunt metus. Mauris hendrerit est eget lacinia molestie. Cras posuere sapien odio, sit amet posuere nisl facilisis ut.
+      <img 
+        src="https://global-business-leaders.com/wp-content/uploads/2019/02/GBL-Illustration-peoplewithtorches-01-01.png" loading="lazy" alt="" 
+        style={{
+          maxWidth: "757px",
+          maxHeight: "644px",
+          "-webkit-transform": "scaleX(-1)",
+          transform: "scaleX(-1)",
+        }}
+      />
+      <article
+        style={{maxWidth:"740px"}}
+      >
+        <p style={{textAlign: "justify"}}>
+          O que está por trás da paz? Seria a ausência de guerra? Temos muitos eventos históricos que nos mostram que na verdade existem diversos outros elementos políticos que podem gerar instabilidade no sistema internacional, a única maneira de alocar diplomaticamente os Estados seria, na verdade, através da cooperação. Um espaço seguro para que as nações/atores internacionais entrem em um acordo formal para maximizar os ganhos entre as partes.
         </p>
 
-        <p>
-    Pellentesque gravida interdum dapibus. Nunc a mattis lectus, eu rhoncus orci. Praesent pharetra quam in nisi auctor, et varius ante fringilla. Nullam varius urna et metus ullamcorper, at mollis ex volutpat. In pretium ex a dignissim iaculis. Nulla luctus mauris non orci vulputate lobortis. Curabitur malesuada elit at elementum lobortis. Praesent gravida nisi eu pharetra consequat.
+        <p style={{textAlign: "justify"}}>
+          O processo de integração regional é necessariamente uma dinâmica de cooperação política, e considerando a dimensão coletiva dos blocos no cenário internacional ao avançar nos processos de integração os países acabam abrindo mão de sua soberania.
         </p>
 
-        <p>
-    Praesent et leo venenatis magna eleifend porttitor quis quis eros. Cras placerat ullamcorper lacus, ac laoreet neque ultrices vitae. Morbi et arcu viverra, pharetra enim sit amet, eleifend velit. Sed eu pulvinar purus. Nunc sit amet tellus a nunc malesuada pulvinar. Quisque dignissim rutrum velit, ac auctor dui interdum at. Nam dictum, turpis vel dictum lobortis, ante nibh dictum neque, et facilisis orci elit at eros. Etiam non nulla sed leo posuere lacinia. Praesent consectetur cursus ipsum vitae tincidunt. Aliquam eget aliquam mi, vitae mollis mi. Duis mattis, lectus eu ullamcorper dignissim, est justo sodales erat, eget aliquam orci tellus eget tortor. Aenean ornare magna ligula, iaculis scelerisque magna porta vel. Vivamus eget dictum purus. Phasellus a ligula eget mauris ultrices semper et nec lacus.
-        </p>
+        <p style={{textAlign: "justify"}}>
+          Com o objetivo de reordenar o Sistema Internacional no pós-guerras surge o movimento de regionalismos para o desenvolvimento de instituições de segurança. A primeira onda de Regionalismo foi caracterizada como Regionalismo Fechado, as regiões se fechavam para criar estratégias comuns de desenvolvimento de inserção no Sistema Internacional, englobando assim todo tipo de processo de cooperação a nível regional e não só processos de integração econômica. Sendo assim, o  regionalismo aberto é visto como uma etapa intermediária para a liberalização econômica multilateral, e não como um fim em si mesmo. Já o Regionalismo Fechado promove o protecionismo a nível regional.
 
-        <p>
-    Ut vitae felis non mi iaculis sodales sed egestas nunc. Ut vitae pellentesque augue, vitae pellentesque libero. Fusce ullamcorper malesuada porta. Vivamus maximus eu tortor quis rhoncus. Donec accumsan pellentesque imperdiet. Etiam rutrum venenatis enim et consectetur. Aliquam id rutrum ligula, sit amet hendrerit leo. Vivamus in sem tincidunt, consequat quam vitae, vehicula velit. Sed rutrum lacinia sem, in tempus mauris rutrum eget. Donec iaculis ut lacus vitae eleifend. Aliquam tempus odio id turpis ullamcorper, eu scelerisque eros aliquet.
-        </p>
 
-        <p>
-          Ut sed orci congue, luctus orci sed, tempor ante. Donec vitae dolor id massa pulvinar finibus. Quisque id dolor lorem. Aenean vestibulum, purus vel cursus ultricies, ipsum massa facilisis elit, nec vulputate orci erat nec ligula. Mauris lectus massa, ultricies sit amet magna nec, congue luctus erat. Maecenas sagittis justo sed nibh iaculis mattis. Donec porttitor fermentum mi, sollicitudin pulvinar metus consequat at. In vel rutrum arcu, eget cursus ante. Sed nisi dolor, pretium vitae mauris convallis, consequat tristique ante. Nulla iaculis velit et tortor porta semper. Sed condimentum porta euismod. Phasellus egestas lorem nec finibus fringilla. Curabitur consectetur erat ac lobortis volutpat.
-        </p>  
+
+        </p>
       </article>
+    
     </section>
   )
 }
