@@ -1,5 +1,9 @@
 # TODOs
 - [ ] Página de "tipos de integração", com textos completos
+  - [ ] Arrumar espaçamento entre itens
+- [ ] Reverter a seção tipos de integração pra ser uma caixa com as imagens
+  - [ ] Deixar todos os itens com o mesmo tamanho
+  - [ ] Fazer o header "tipos de integraçao regiona;l" igual a seção de about
 - [X] Mudar botoes da navbar pra apenas exibirem 1,2,3
 - [ ] Colocar todos os textos e imagens
 - [X] Usar as fontes custom
@@ -11,7 +15,6 @@
 - [ ] Colocar link de "Home" em todas as páginas
 - [ ] Colocar imagem da corrente igual a seção "O Que é" 
   - [ ] "https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg"
-- [ ] Reverter a seção tipos de integração pra ser uma caixa com as imagens
 - [ ] (nice-to-have) Ao scrollar, o header principal vira parte da navbar
 - [ ] (nice-to-have) Botões da navbar expandem onHover, mostrando os textos
   - [ ] O que é regionalização

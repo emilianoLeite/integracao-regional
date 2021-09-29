@@ -2,77 +2,98 @@ import Link from 'next/link'
 
 export default function IntegrationTypes() {
   return (
-  <section 
-    style={{background: "#fff4ab"}}
+    <section 
+    style={{marginBottom: "50px"}}
     className="container no-padding-mobile"
   >
-    <div className="split-section wf-section">
+    <div className="content-inner-padding">
+      <div className="alternative-title-wrapper">
+        <h3 
+          className="alternative-title dirtylife-font"
+          style={{width: "100%"}}
+        >
+
+            TIPOS DE
+        </h3>
+          <h3 className="kinan-font">
+            Integração Regional
+          </h3>
+            
+      </div>
+      <div className="w-layout-grid grid-thirds">
+        <a href="#" className="grid-link w-inline-block" data-bcup-haslogintext="no">
+        <div className="grid-wrapper">
+        <div className="grid-image-wrapper">
+        <img src="http\s://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 62vw, (max-width: 1919px) 43vw, 667.407470703125px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg 1200w" alt="A desk with a computer and branding assets on it" className="image-cover" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}/>
       
-      <div className="split-section-content-half">
-        <div className="title-wrapper">
-          <h3>Tipos de Integração</h3> 
-        </div>
+      </div>
+      <div className="grid-content-wrapper">
+        <h4>Fundamentals of a thriving business</h4>
+      
+      </div>
+      <div className="grid-cta">
+        <div className="button-text" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}>Buy Course
+      
+      </div>
+      <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}/>
+      
+      </div>
+      
+      </div>
+      
+      </a>
+      <a href="#" className="grid-link w-inline-block" data-bcup-haslogintext="no">
+        <div className="grid-wrapper">
+        <div className="grid-image-wrapper">
+        <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 92vw, (max-width: 767px) 85vw, (max-width: 991px) 79vw, (max-width: 1919px) 54vw, 846.8519287109375px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg 1200w" alt="2 isometric papers laid on a wall with a cactus plant in front." className="image-cover" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}/>
+      
+      </div>
+      <div className="grid-content-wrapper">
+        <h4>The perfect proposal to sign your dream client
         
-        <div className="flex-horizontal">
-          <div className="card-bundle margin-top" style={{
-            willChange: "transform", 
-            transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", 
-            transformStyle: "preserve-3d"
-          }}>
-          <div className="card-bundle-image-wrapper">
-          <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 93vw, (max-width: 767px) 45vw, (max-width: 1919px) 21vw, 23vw" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg 1200w" alt="A desk with a computer and branding assets on it" className="image-cover"/>
-          </div>
-        <div className="card-bundle-content-wrapper">
-          <h5>Área de livre comércio</h5>
-        </div>
-        </div>
-        <div className="card-bundle" style={{
-          willChange: "transform", transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)" ,
-          transformStyle: "preserve-3d"
-        }}>
-          <div className="card-bundle-image-wrapper">
-          <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 93vw, (max-width: 767px) 45vw, (max-width: 1919px) 21vw, 23vw" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg 1200w" alt="2 isometric papers laid on a wall with a cactus plant in front." className="image-cover"/>
-          </div>
-        <div className="card-bundle-content-wrapper">
-          <h5>União Aduaneira</h5>
-        </div>
-        </div>
-        <div className="card-bundle margin-top" style={{
-          willChange: "transform", transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-          transformStyle: "preserve-3d"
-        }}>
-          <div className="card-bundle-image-wrapper">
-          <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e873b67fe3f27da31b60a9_Instagram%2B-Template.jpg" loading="lazy" width="400" alt="A girsl, sitting on the floor, working on the computer, on a coffee table." className="image-cover"/>
-          </div>
-        <div className="card-bundle-content-wrapper">
-          <h5>Mercado Comum</h5>
-        </div>
-        </div>
-        <div className="card-bundle" style={{
-          willChange: "transform", transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)" ,transformStyle: "preserve-3d"
-        }}>
-          <div className="card-bundle-image-wrapper">
-          <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e737fa215be018dcbfe1b0_Moodboard-Template.jpg" loading="lazy" width="400" alt="A teared photo and pantone colors on a beige surface with a dry flower. " className="image-cover"/>
-          </div>
-        <div className="card-bundle-content-wrapper">
-          <h5>União Monetária</h5>
-        </div>
-        </div>
-
+        </h4>
+      
+      </div>
+      <div className="grid-cta">
+        <div className="button-text" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}>Buy Course
+      
+      </div>
+      <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}/>
+      
+      </div>
+      
+      </div>
+      
+      </a>
+      <a href="#" className="grid-link w-inline-block" data-bcup-haslogintext="no">
+        <div className="grid-wrapper">
+        <div className="grid-image-wrapper">
+        <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 57vw, (max-width: 1919px) 40vw, 614.7376708984375px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide.jpg 1200w" alt="Branding assets and documents laid down on a concrete floor." className="image-cover" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}/>
+      
+      </div>
+      <div className="grid-content-wrapper">
+        <h4>Attract your ideal high end client
+        
+        </h4>
+      
+      </div>
+      <div className="grid-cta">
+        <div className="button-text" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}>Buy Course
+      
+      </div>
+      <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" style={{"transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", transformStyle: "preserve-3d"}}/>
+      
+      </div>
+      
+      </div>
+      
+      </a>
+      
+      </div>
+    </div>
     
-        </div>
-     
-      </div>
-      <div className="split-section-image-half">
-        <div >
-
-        <p>
-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus tincidunt leo, et dapibus ante accumsan eget. In neque urna, iaculis eu augue nec, malesuada lacinia urna. Fusce sit amet enim massa. Maecenas venenatis, lectus quis bibendum blandit, lacus sapien egestas ex, a pulvinar mauris enim sed nulla. In quis tincidunt metus. Mauris hendrerit est eget lacinia molestie. Cras posuere sapien odio, sit amet posuere nisl facilisis ut.
-        </p>
-        </div>
-      </div>
-    </div>        
-  </section>
+    
+        
+    </section>
   )
 }
