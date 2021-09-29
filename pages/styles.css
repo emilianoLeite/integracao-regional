@@ -1728,7 +1728,7 @@
     src: url("/fonts/Bacalisties.ttf");
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
+    font-display: optional;
   }
  
   @font-face {
@@ -1736,14 +1736,14 @@
     src: url("/fonts/Kinan.ttf");
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
+    font-display: optional;
   }
   @font-face {
     font-family: "Today-Easter";
     src: url("/fonts/Today-Easter.ttf");
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
+    font-display: optional;
   }
 
   .kinan-font {

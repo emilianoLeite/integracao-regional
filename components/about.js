@@ -4,14 +4,27 @@ export default function About() {
       display: "flex",
       flexWrap: "wrap",
       justifyContent: "space-evenly",
-      marginBottom: "50px"
+      marginBottom: "50px",
+      paddingTop: "45px",
     }}>
       
-      <h2 style={{
-        width: "100%"
-      }}>
-        O que é
-      </h2>
+      <h3 
+        style={{
+          width: "100%",
+          marginBottom: "0px",
+          marginLeft: "100px",
+          textTransform: "uppercase",
+          fontSize: "4em",
+        }}
+        >
+        O que é 
+      </h3>
+        <h2 
+          className="kinan-font"
+        >
+        Integração Regional?
+
+        </h2 >
       <img 
         src="https://global-business-leaders.com/wp-content/uploads/2019/02/GBL-Illustration-peoplewithtorches-01-01.png" loading="lazy" alt="" 
         style={{
@@ -25,7 +38,16 @@ export default function About() {
         style={{maxWidth:"740px"}}
       >
         <p style={{textAlign: "justify"}}>
-          O que está por trás da paz? Seria a ausência de guerra? Temos muitos eventos históricos que nos mostram que na verdade existem diversos outros elementos políticos que podem gerar instabilidade no sistema internacional, a única maneira de alocar diplomaticamente os Estados seria, na verdade, através da cooperação. Um espaço seguro para que as nações/atores internacionais entrem em um acordo formal para maximizar os ganhos entre as partes.
+          <span 
+            className="today-easter-font"
+            style={{
+              fontSize: "2.2rem",
+              marginRight: "5px",
+            }}
+          >
+            O que está por trás da paz? 
+          </span>
+          Seria a ausência de guerra? Temos muitos eventos históricos que nos mostram que na verdade existem diversos outros elementos políticos que podem gerar instabilidade no sistema internacional, a única maneira de alocar diplomaticamente os Estados seria, na verdade, através da cooperação. Um espaço seguro para que as nações/atores internacionais entrem em um acordo formal para maximizar os ganhos entre as partes.
         </p>
 
         <p style={{textAlign: "justify"}}>

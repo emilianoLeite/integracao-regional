@@ -29,7 +29,7 @@ export default function NavigationButtons() {
       </div>
     <div className="button-top-bcg">
       </div>
-    <div className="button-text" >Visit my website</div>
+    <div className="button-text today-easter-font" style={{fontSize: "1.8em"}} >Visit my website</div>
     <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" />
       </a>
     </div>
@@ -39,7 +39,7 @@ export default function NavigationButtons() {
       </div>
     <div className="button-top-bcg">
       </div>
-    <div className="button-text" >My services</div>
+    <div className="button-text today-easter-font" style={{fontSize: "1.8em"}} >My services</div>
     <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" />
       </a>
     </div>
@@ -49,7 +49,7 @@ export default function NavigationButtons() {
       </div>
     <div className="button-top-bcg">
       </div>
-    <div className="button-text" >Join my facebook group</div>
+    <div className="button-text today-easter-font" style={{fontSize: "1.8em"}} >Join my facebook group</div>
     <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" />
       </a>
     </div>
@@ -59,7 +59,7 @@ export default function NavigationButtons() {
       </div>
     <div className="button-top-bcg">
       </div>
-    <div className="button-text" >Spotify focus playlist</div>
+    <div className="button-text today-easter-font" style={{fontSize: "1.8em"}} >Spotify focus playlist</div>
     <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" />
       </a>
     </div>

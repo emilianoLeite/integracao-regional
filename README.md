@@ -6,6 +6,8 @@
 - Mudar botoes da navbar pra apenas exibirem 1,2,3
 - Colocar todos os textos e imagens
 - Usar as fontes custom
+  - Navigation buttons: Today-Easter
+  - Primeira frase do about: "O que está por trás da paz?" Today-Easter
 - Finzalizar os quizzes
   - Quiz dos bixos são apenas imagens
 - Colocar todos os links para as páginas
