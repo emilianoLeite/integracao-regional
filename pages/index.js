@@ -1,5 +1,5 @@
 import Navbar from '../components/navbar'
-import Hero from '../components/Hero'
+import Hero from '../components/hero'
 import About from '../components/about'
 import IntegrationTypes from '../components/integration_types'
 import Quizzes from '../components/quizzes'
