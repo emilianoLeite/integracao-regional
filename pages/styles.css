@@ -1723,22 +1723,37 @@
      font-display: swap;
    }
 
-  /* Custom styles */
+  @font-face {
+    font-family: "Bacalisties";
+    src: url("/fonts/Bacalisties.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+ 
+  @font-face {
+    font-family: "Kinan";
+    src: url("/fonts/Kinan.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Today-Easter";
+    src: url("/fonts/Today-Easter.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
 
-  /* label{
-    margin-bottom:5px;
-    margin-left: 5px;
-    cursor: pointer;
+  .kinan-font {
+    font-family: 'Kinan';
   }
   
-  form .w-inline-block {
-    max-width: 33%
+  .bacalisties-font {
+    font-family: 'Bacalisties';
   }
   
-  form .answer { 
-    margin-bottom: 10px;
+  .today-easter-font {
+    font-family: 'Today-Easter';
   }
-
-  form .answer:active { 
-    transform: translate(0px, -2px);
-  } */

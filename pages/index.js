@@ -3,19 +3,46 @@ import Hero from '../components/Hero'
 import About from '../components/about'
 import IntegrationTypes from '../components/integration_types'
 import Quizzes from '../components/quizzes'
+import NavigationButtons from '../components/navigation-buttons'
+
+import Head from "next/head";
+
 
 export default function Home() {
   return (
     <>
-    
-    <Navbar/>
-    <main>
-      <Hero/>
-      
+      <Head>
+          <link
+            rel="preload"
+            href="/fonts/Bacalisties.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Kinan.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Today-Easter.ttf"
+            as="font"
+            crossOrigin=""
+          />
+        </Head>
 
-      <About/>
-      <IntegrationTypes/>
-      <Quizzes/>
-    </main> 
-    </>)
+      <Navbar/>
+
+      <main>
+        <Hero/>
+
+        <NavigationButtons/>
+
+        <About/>
+        <IntegrationTypes/>
+        <Quizzes/>
+      </main>
+    </>
+  )
 }
