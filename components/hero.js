@@ -3,46 +3,25 @@ export default function Hero() {
     <section id="Coaching" className="hero-split-wrapper">
       <div className="hero-split-left-column">
         <div className="hero-split-content">
-          <div data-w-id="26d0036c-2f16-2055-72b3-5b290bda342d" 
-            style={{
-              opacity: 1, 
-              "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-            }} 
-            className="all-caps"
-          >
-            Hello, I'm Wilma and I want to
-          </div>
           <h1 data-w-id="26d0036c-2f16-2055-72b3-5b290bda342f" style={{
             opacity: 1, 
             transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
             transformStyle: "preserve-3d"
           }}>
-            Help you get out of your design rut
+            REGIONALIZANDO
           </h1>
-          <div data-w-id="26d0036c-2f16-2055-72b3-5b290bda3431" style={{
-            opacity: 1,
-            "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d"
-          }} className="button-wrapper">
-            <a data-w-id="26d0036c-2f16-2055-72b3-5b290bda3432" href="#" className="button w-inline-block" data-bcup-haslogintext="no">
-              <div className="button-back-bcg"></div><div className="button-top-bcg"></div>
-              <div 
-                className="button-text" 
-                style={{
-                  transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d"
-                }}
-              >
-                Book 1:1 coaching call
-              </div>
-              
-              <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" style={{
-                "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",transformStyle: "preserve-3d"
-                }}
-              />
-            </a>
-          </div>
+          
+          <p>
+            O portal <span className="dirtylife-font" style={{fontSize: "1.7vw"}}>REGIONALIZANDO</span> tem como intuito simplificar o entendimento do que é a Integração Regional, e qual sua importância para o funcionamento do Sistema Internacional e nos estudos das Relações Internacionais.
+          </p>
+          
+          <p>
+            A integração fortalece relações culturais e comerciais entre os países envolvidos, além de expandir sua atuação no mercado internacional, nas instituições globais que auxiliam o funcionamento do SI e, muitas vezes, viabilizam a paz local, sendo assim uma ação importante para promover a redução das barreiras internacionais.
+          </p>
+          
+          <p>
+            Para MUITO mais conhecimento, aproveite o REGIONALIZANDO ♥
+          </p>
         </div>
       </div>
       <div className="hero-split-right-column">

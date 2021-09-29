@@ -1,16 +1,20 @@
 # TODOs
-- (nice-to-have)Botões da navbar expandem onHover, mostrando os textos
-  - O que é regionalização
-  - Tipos de integração regional
-- Página de "tipos de integração", com textos completos
-- Mudar botoes da navbar pra apenas exibirem 1,2,3
-- Colocar todos os textos e imagens
-- Usar as fontes custom
-  - Navigation buttons: Today-Easter
-  - Primeira frase do about: "O que está por trás da paz?" Today-Easter
-- Finzalizar os quizzes
-  - Quiz dos bixos são apenas imagens
-- Colocar todos os links para as páginas
+- [ ] Página de "tipos de integração", com textos completos
+- [X] Mudar botoes da navbar pra apenas exibirem 1,2,3
+- [ ] Colocar todos os textos e imagens
+- [X] Usar as fontes custom
+  - [X] Navigation buttons: Today-Easter
+  - [X] Primeira frase do about: "O que está por trás da paz?" Today-Easter
+- [ ] Finzalizar os quizzes
+  - [ ] Quiz dos bixos são apenas imagens
+- [ ] Colocar todos os links para as páginas
+- [ ] Colocar link de "Home" em todas as páginas
+- [ ] Colocar imagem da corrente 
+  - [ ] "https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg"
+- [ ] (nice-to-have) Ao scrollar, o header principal vira parte da navbar
+- [ ] (nice-to-have) Botões da navbar expandem onHover, mostrando os textos
+  - [ ] O que é regionalização
+  - [ ] Tipos de integração regional
 
 # Basic export example
 
