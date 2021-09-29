@@ -53,7 +53,7 @@ export default function Hero() {
          "willChange": "transform"
          }} data-w-id="26d0036c-2f16-2055-72b3-5b290bda343a" alt="" className="hero-shape"/>
         <div data-w-id="26d0036c-2f16-2055-72b3-5b290bda3439" 
-          style={{opacity: 1}} className="split-image hero-image"
+          style={{opacity: 1}} className="hero-split-image hero-image"
         >
 
         </div>

@@ -239,14 +239,24 @@
    .split-image {
      width: 100%;
      height: 100%;
-     
+     border: 1px solid #332a4f;
      background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
-     background-position: 50% 21%;
-     background-size: contain;
+     background-position: 50% 50%;
+     background-size: cover;
      background-repeat: no-repeat;
-   }
+  }
+
+  .hero-split-image {
+    width: 100%;
+    height: 100%;
+    
+    background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+    background-position: 50% 21%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
    
-   .split-image.hero-image {
+   .hero-split-image.hero-image {
      background-image: url("https://cdn.shopify.com/s/files/1/0236/1117/9054/files/earthdoodle_576x576.png?v=1606328549");
    }
    
@@ -279,6 +289,10 @@
    
    .button.big {
      min-width: 620px;
+   }
+   
+   .button.medium {
+     min-width: 320px;
    }
    
    .button-wrapper {
@@ -345,8 +359,7 @@
      max-width: 1920px;
      margin-right: auto;
      margin-left: auto;
-     padding-right: 5em;
-     padding-left: 5em;
+     padding: 5em;
    }
    
    .container.no-padding {
@@ -385,6 +398,11 @@
    
    .margin-right-96 {
      margin-right: 96px;
+     margin-bottom: 0px;
+   }
+   
+   .margin-right-35 {
+     margin-right: 35px;
      margin-bottom: 0px;
    }
    
