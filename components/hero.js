@@ -36,6 +36,7 @@ export default function Hero() {
               >
                 Book 1:1 coaching call
               </div>
+              
               <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" style={{
                 "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",transformStyle: "preserve-3d"
                 }}

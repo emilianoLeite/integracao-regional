@@ -1,7 +1,14 @@
 # TODOs
-- Botões da navbar expandem onHover, mostrando os textos
+- (nice-to-have)Botões da navbar expandem onHover, mostrando os textos
   - O que é regionalização
   - Tipos de integração regional
+- Página de "tipos de integração", com textos completos
+- Mudar botoes da navbar pra apenas exibirem 1,2,3
+- Colocar todos os textos e imagens
+- Usar as fontes custom
+- Finzalizar os quizzes
+  - Quiz dos bixos são apenas imagens
+- Colocar todos os links para as páginas
 
 # Basic export example
 
