@@ -31,8 +31,19 @@ export default function Question() {
             </div>
           </a>
           <div className={styles.footer}>
-            <button type="button" className={styles.secondaryButton} data-bcup-haslogintext="no">anterior</button>
-            <button type="button" className={`${styles.submitButton} ${styles.wButton} `}>próxima</button>
+            <button type="button" className={styles.secondaryButton} data-bcup-haslogintext="no">
+              <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" style={{
+                "transform": "rotate(180deg) translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", 
+                transformStyle: "preserve-3d"
+              }}/>
+              </button>
+            <button type="button" className={`${styles.submitButton} ${styles.wButton} `}>
+              <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" style={{
+                "transform": "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", 
+                transformStyle: "preserve-3d"
+              }}/>
+              
+              </button>
           </div>
       </form>
         </div>
