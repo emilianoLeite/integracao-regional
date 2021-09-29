@@ -148,6 +148,7 @@
      -webkit-align-items: center;
      -ms-flex-align: center;
      align-items: center;
+     cursor: pointer;
    }
    
    .social-back-bcg {
@@ -238,17 +239,15 @@
    .split-image {
      width: 100%;
      height: 100%;
-     border: 1px solid #332a4f;
+     
      background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
-     background-position: 50% 50%;
-     background-size: cover;
+     background-position: 50% 21%;
+     background-size: contain;
      background-repeat: no-repeat;
    }
    
    .split-image.hero-image {
-     border-radius: 500px;
-     background-image: url("https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b760e038903e5_pexels-rachel-claire-4992377%20(1).jpg");
-     background-position: 50% 50%;
+     background-image: url("https://cdn.shopify.com/s/files/1/0236/1117/9054/files/earthdoodle_576x576.png?v=1606328549");
    }
    
    .split-image.bundle-image {
@@ -1744,6 +1743,10 @@
     font-style: normal;
     font-weight: 400;
     font-display: optional;
+  }
+
+  .dirtylife-font { 
+    font-family: 'Dirtyline studio harmond Condensed', sans-serif;
   }
 
   .kinan-font {

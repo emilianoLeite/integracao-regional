@@ -28,20 +28,22 @@ export default function About() {
       <img 
         src="https://global-business-leaders.com/wp-content/uploads/2019/02/GBL-Illustration-peoplewithtorches-01-01.png" loading="lazy" alt="" 
         style={{
-          maxWidth: "757px",
-          maxHeight: "644px",
-          "-webkit-transform": "scaleX(-1)",
+          maxWidth: "500px",
+          maxHeight: "400px",
+          "WebkitTransform": "scaleX(-1)",
           transform: "scaleX(-1)",
+          marginLeft: "-65px",
+          marginTop: "36px",
         }}
       />
       <article
-        style={{maxWidth:"740px"}}
+        style={{maxWidth:"400px"}}
       >
         <p style={{textAlign: "justify"}}>
           <span 
             className="today-easter-font"
             style={{
-              fontSize: "2.2rem",
+              fontSize: "1.7rem",
               marginRight: "5px",
             }}
           >
