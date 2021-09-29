@@ -13,7 +13,7 @@ export default function Question() {
             <div className="button-text">
               <input 
                 type="radio" id="quiz1-answer1" name="quiz1-answer1" value="quiz1-answer1" 
-                selected={false}
+                
               />
               <label className={styles.answerLabel} htmlFor="quiz1-answer1">Teste</label>
             </div>
@@ -24,14 +24,16 @@ export default function Question() {
             <div className="button-top-bcg"></div>
             <div className="button-text">
               <input 
-                type="radio" id="quiz1-answer2" name="quiz1-answer2" value="quiz1-answer2"      
-                selected={false}
+                type="radio" id="quiz1-answer2" name="quiz1-answer1" value="quiz1-answer2"      
+                
               />
               <label className={styles.answerLabel} htmlFor="quiz1-answer2">Teste</label>
             </div>
           </a>
-          <a href="#" className="submit-button w-button" data-bcup-haslogintext="no">Submit</a>
-          <a href="#" className={styles.secondaryButton} data-bcup-haslogintext="no">Submit</a>
+          <div className={styles.footer}>
+            <button type="button" className={styles.secondaryButton} data-bcup-haslogintext="no">anterior</button>
+            <button type="button" className={`${styles.submitButton} ${styles.wButton} `}>próxima</button>
+          </div>
       </form>
         </div>
 

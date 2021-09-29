@@ -21,20 +21,50 @@
   text-transform: uppercase;
 }
 
+.formButton {
+  max-width: 33%;
+  cursor: pointer;
+}
+
+.formButton:hover { 
+  transform: translate(0px, -1px);
+}
+
+.formButton:active { 
+  transform: translate(0px, -2px);
+}
+
 .answerButton {
   composes: webflowButton;
-  max-width: 33%;
+  composes: formButton;
   margin-bottom: 10px;
 }
 
-.answerButton:active { 
-  transform: translate(0px, -2px);
-} 
+.submitButton {
+  composes: formButton;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 32px;
+  background-color: #ff715b;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    
+}
+
+.submitButton:hover {
+  background-color: rgba(255, 113, 91, 0.8);
+}
 
 .secondaryButton {
   composes: webflowButton;
-  width: 100%;
-  margin-bottom: 8px;
+  composes: formButton;
+  display: inline-block;
   padding: 16px 32px;
   border-radius: 32px;
   background-color: transparent;
@@ -44,4 +74,16 @@
   text-transform: uppercase;
   color: #332a4f;
   border: 1px solid #a093ca;
+}
+
+.secondaryButton:hover {
+  color: #474257;
+  border: 1px solid #544e69;
+}
+
+.footer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
