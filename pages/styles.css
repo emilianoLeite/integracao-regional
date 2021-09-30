@@ -270,6 +270,12 @@
      border-left-style: none;
      background-image: url("https://i.pinimg.com/564x/f4/6a/86/f46a86b3b76582cd83f1c3bbdb37dc5b.jpg");
    }
+    
+   .split-image.integration-bundle-image {
+     border-bottom-style: none;
+     border-left-style: none;
+     background-image: url("https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg");
+   }
    
    .button-text {
      position: relative;
