@@ -16,7 +16,7 @@ export default function IntegrationTypes() {
       >
         <div className={styles.splitSection}>
           
-          <div className={styles.halfSection}>
+          <div className={`${styles.halfSection} ${styles.firstRow}`}>
             <div className={styles.watermark}>
               <span> 1 </span>
             </div>
@@ -28,7 +28,7 @@ export default function IntegrationTypes() {
         
           </div>
          
-          <div className={styles.halfSection}>
+          <div className={`${styles.halfSection} ${styles.firstRow}`}>
             <div className={styles.watermark}>
               <span> 2 </span>
             </div>
@@ -45,7 +45,7 @@ export default function IntegrationTypes() {
       >
         <div className={styles.splitSection}>
           
-          <div className={styles.halfSection}>
+          <div className={`${styles.halfSection} ${styles.secondRow}`}>
             <div className={styles.watermark}>
               <span> 3 </span>
             </div>
@@ -56,7 +56,7 @@ export default function IntegrationTypes() {
         
           </div>
          
-          <div className={styles.halfSection}>
+          <div className={`${styles.halfSection} ${styles.secondRow}`}>
             <div className={styles.watermark}>
               <span> 4 </span>
             </div>

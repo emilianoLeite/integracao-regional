@@ -35,6 +35,14 @@
   position: relative;
 }
 
+.halfSection.firstRow {
+  padding: 0px 5em 0px 2em;
+}
+
+.halfSection.secondRow {
+  padding: 0px 5em 48px 2em;
+}
+
 .mainText { 
   padding: 0px 5em 0px 16.84px;
 }
