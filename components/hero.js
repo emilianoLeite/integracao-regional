@@ -20,17 +20,12 @@ export default function Hero() {
           </p>
           
           <p>
-            Para MUITO mais conhecimento, aproveite o REGIONALIZANDO ♥
+            Para MUITO mais conhecimento, aproveite o <span className="dirtylife-font" style={{fontSize: "1.7vw"}}>REGIONALIZANDO</span> ♥
           </p>
         </div>
       </div>
       <div className="hero-split-right-column">
-        <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e860867f9aedab7290cc95_star-shape-red.svg" loading="lazy" style={{
-          opacity: 1,
-         transform: "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(12.8232deg) skew(0deg, 0deg)", 
-         transformStyle: "preserve-3d",
-         "willChange": "transform"
-         }} data-w-id="26d0036c-2f16-2055-72b3-5b290bda343a" alt="" className="hero-shape"/>
+        
         <div data-w-id="26d0036c-2f16-2055-72b3-5b290bda3439" 
           style={{opacity: 1}} className="hero-split-image hero-image"
         >

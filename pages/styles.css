@@ -408,7 +408,7 @@
    
    .alternative-title-wrapper {
      position: relative;
-     top: -125px;
+     top: -99px;
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -475,7 +475,7 @@
    
    .content-inner-padding {
      position: relative;
-     padding: 72px 64px 96px;
+     padding: 49px 64px 49px;
      border: 2px solid #ff715b;
      border-radius: 32px;
    }

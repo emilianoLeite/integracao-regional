@@ -15,6 +15,7 @@
 - [ ] Colocar link de "Home" em todas as páginas
 - [ ] Colocar imagem da corrente igual a seção "O Que é" 
   - [ ] "https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg"
+- [ ] Colocar animação de formButton em todos os botões
 - [ ] (nice-to-have) Ao scrollar, o header principal vira parte da navbar
 - [ ] (nice-to-have) Botões da navbar expandem onHover, mostrando os textos
   - [ ] O que é regionalização

@@ -9,6 +9,7 @@ export default function About() {
     }}>
       
       <h3 
+        id="about"
         style={{
           width: "100%",
           marginBottom: "0px",

@@ -9,6 +9,7 @@ export default function IntegrationTypes() {
       <div className="content-inner-padding">
         <div className="alternative-title-wrapper">
           <h3 
+            id="integration-types"
             className="alternative-title dirtylife-font"
             style={{
               width: "100%",
@@ -36,7 +37,9 @@ export default function IntegrationTypes() {
           <a href="#" className="grid-link w-inline-block">
             <div className="grid-wrapper">
             <div className="grid-image-wrapper">
-            <img src="http\s://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 62vw, (max-width: 1919px) 43vw, 667.407470703125px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg 1200w" alt="A desk with a computer and branding assets on it" className="image-cover"/>
+            <img 
+              src="https://i.pinimg.com/564x/76/57/56/7657565066286f6aef13c8ec08c6f8f7.jpg" loading="lazy" 
+              className="image-cover"/>
           
           </div>
           <div className="grid-content-wrapper">
@@ -51,7 +54,11 @@ export default function IntegrationTypes() {
           <a href="#" className="grid-link w-inline-block">
             <div className="grid-wrapper">
             <div className="grid-image-wrapper">
-            <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 92vw, (max-width: 767px) 85vw, (max-width: 991px) 79vw, (max-width: 1919px) 54vw, 846.8519287109375px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg 1200w" alt="2 isometric papers laid on a wall with a cactus plant in front." className="image-cover"/>
+            <img 
+              src="https://i.pinimg.com/564x/8d/a6/21/8da62144c682b057d022fe41d3ff5885.jpg" 
+              loading="lazy"
+              className="image-cover"
+              />
           
           </div>
           <div className="grid-content-wrapper">
@@ -67,7 +74,11 @@ export default function IntegrationTypes() {
           <a href="#" className="grid-link w-inline-block">
             <div className="grid-wrapper">
               <div className="grid-image-wrapper">
-                <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 57vw, (max-width: 1919px) 40vw, 614.7376708984375px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide.jpg 1200w" alt="Branding assets and documents laid down on a concrete floor." className="image-cover"/>
+                <img 
+                  src="https://i.pinimg.com/564x/8b/24/1e/8b241e36c5968e12b3e6c2aac1534832.jpg" 
+                  loading="eager"
+                  className="image-cover"
+                />
               
               </div>
               
@@ -80,7 +91,11 @@ export default function IntegrationTypes() {
           <a href="#" className="grid-link w-inline-block">
             <div className="grid-wrapper">
               <div className="grid-image-wrapper">
-                <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 92vw, (max-width: 767px) 79vw, (max-width: 991px) 57vw, (max-width: 1919px) 40vw, 614.7376708984375px" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e190a403e36252c18a89de_carousel-guide.jpg 1200w" alt="Branding assets and documents laid down on a concrete floor." className="image-cover"/>
+                <img 
+                  src="https://i.pinimg.com/564x/af/32/16/af3216d4d54884bbc4bb91afd67929ce.jpg" 
+                  loading="lazy" 
+                  className="image-cover"
+                />
             
               </div>
               
