@@ -21,8 +21,63 @@
   text-transform: uppercase;
 }
 
+.webflowButtonTopBcg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  border: 1px solid #332a4f;
+  border-radius: 50px;
+  background-color: #faf2ff;
+}
+
+.webflowButtonBackBcg {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  right: -4px;
+  bottom: -4px;
+  border: 1px solid #332a4f;
+  border-radius: 50px;
+  background-color: #a093ca;
+}
+
+.correct {}
+.incorrect {}
+.answerOption {}
+
+.answerOption.incorrect .webflowButtonTopBcg {
+  border: 1px solid #ff715b;
+  background-color: #f6afaf;
+}
+
+.answerOption.incorrect .webflowButtonBackBcg {
+  border: 1px solid #e08e94;
+  background-color: #b84a65;
+}
+
+.answerOption.correct .webflowButtonTopBcg {
+  border: 1px solid #23ad0b;
+  background-color: #78ff5f;
+}
+
+.answerOption.correct .webflowButtonBackBcg {
+  border: 1px solid #75cc66;
+  background-color: #338624;
+}
+
+.answerList {
+  list-style-type: none;
+}
+
+.answerList[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
 .formButton {
-  max-width: 33%;
+  max-width: 38%;
   cursor: pointer;
 }
 
@@ -53,12 +108,20 @@
   color: white;
     border: 0;
     line-height: inherit;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 .submitButton:hover {
   background-color: rgba(255, 113, 91, 0.8);
+}
+
+.submitButton[disabled]{
+  background-color: rgb(242 175 164 / 80%)
+  /* display: none; */
+}
+
+.submitButton[disabled]:hover { 
+  transform: none;
 }
 
 .secondaryButton {
