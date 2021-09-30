@@ -11,7 +11,25 @@ export default function Quizzes() {
      
       <div className="split-section-content-half">
         <div className="title-wrapper">
-          <h2 id="quizzes">Teste seus conhecimentos</h2>
+        <h3 
+            id="quizzes"
+            className="alternative-title dirtylife-font"
+            style={{
+              width: "100%",
+              fontSize: "4em",
+              textAlign: "start",
+            }}
+          >
+            TESTE SEUS
+          </h3>
+            <h3 
+              className="kinan-font"
+              style={{
+                marginLeft: "70px"
+              }}
+            >
+              Conhecimentos
+            </h3>
           <p
             style={{fontSize:"1.6vw"}}  
           >
