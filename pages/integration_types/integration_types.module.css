@@ -6,13 +6,32 @@
   opacity: 0.2;
   color: BLACK;
   position: absolute;
+  font-size: 21em;
+  border: 5px solid black;
+  border-radius: 129px;
+  width: 241px;
+  text-align: center;
+}
+
+.watermark1 {
+  composes: watermark;
   top: 0;
   left: -110px;
-  font-size: 24em;
-  border: 5px solid black;
-  border-radius: 114px;
-  width: 217px;
-  text-align: center;
+}
+.watermark2 {
+  composes: watermark;
+  top: 0;
+  left: -64px;
+}
+.watermark3 {
+  composes: watermark;
+  top: 0;
+  left: -110px;
+}
+.watermark4 {
+  composes: watermark;
+  top: 0;
+  left: -64px;
 }
 
 .splitSection {

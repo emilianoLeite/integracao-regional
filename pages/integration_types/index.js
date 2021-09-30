@@ -17,7 +17,7 @@ export default function IntegrationTypes() {
         <div className={styles.splitSection}>
           
           <div className={`${styles.halfSection} ${styles.firstRow}`}>
-            <div className={styles.watermark}>
+            <div className={styles.watermark1}>
               <span> 1 </span>
             </div>
           
@@ -29,7 +29,7 @@ export default function IntegrationTypes() {
           </div>
          
           <div className={`${styles.halfSection} ${styles.firstRow}`}>
-            <div className={styles.watermark}>
+            <div className={styles.watermark2}>
               <span> 2 </span>
             </div>
             <h2 className="kinan-font" id="integration-type-2"> União Aduaneira </h2>
@@ -40,13 +40,14 @@ export default function IntegrationTypes() {
           </div>
         </div>        
       </section>
+      
       <section 
         className="container"
       >
         <div className={styles.splitSection}>
           
           <div className={`${styles.halfSection} ${styles.secondRow}`}>
-            <div className={styles.watermark}>
+            <div className={styles.watermark3}>
               <span> 3 </span>
             </div>
             <h2 className="kinan-font" id="integration-type-3"> Mercado Comum </h2>
@@ -57,7 +58,7 @@ export default function IntegrationTypes() {
           </div>
          
           <div className={`${styles.halfSection} ${styles.secondRow}`}>
-            <div className={styles.watermark}>
+            <div className={styles.watermark4}>
               <span> 4 </span>
             </div>
             <h2 className="kinan-font" id="integration-type-4"> União Monetária </h2>
