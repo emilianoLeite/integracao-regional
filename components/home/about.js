@@ -29,16 +29,16 @@ export default function About() {
       <img 
         src="https://global-business-leaders.com/wp-content/uploads/2019/02/GBL-Illustration-peoplewithtorches-01-01.png" loading="lazy" alt="" 
         style={{
-          maxWidth: "500px",
-          maxHeight: "400px",
+          maxWidth: "550px",
+          maxHeight: "500px",
           "WebkitTransform": "scaleX(-1)",
           transform: "scaleX(-1)",
-          marginLeft: "-65px",
-          marginTop: "36px",
+          marginLeft: "-110px",
+          marginTop: "50px",
         }}
       />
       <article
-        style={{maxWidth:"400px"}}
+        style={{maxWidth:"600px"}}
       >
         <p style={{textAlign: "justify"}}>
           <span 

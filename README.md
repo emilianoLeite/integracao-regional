@@ -1,6 +1,8 @@
 # TODOs
-- [X] Página de "tipos de integração", com textos completos
-  - [ ] Arrumar espaçamento entre itens
+- [X] Página de "tipos de integração"
+  - [X] com textos completos
+  - [X] Arrumar espaçamento entre itens
+  - [ ] Deixar watermark completamente redondos
 - [X] Reverter a seção tipos de integração pra ser uma caixa com as imagens
   - [X] Deixar todos os itens com o mesmo tamanho
   - [X] Fazer o header "tipos de integraçao regiona;l" igual a seção de about
@@ -11,11 +13,11 @@
   - [X] Primeira frase do about: "O que está por trás da paz?" Today-Easter
 - [ ] Finzalizar os quizzes
   - [ ] Quiz dos bixos são apenas imagens
-- [ ] Colocar todos os links para as páginas
-- [ ] Colocar link de "Home" em todas as páginas
-- [ ] Colocar imagem da corrente igual a seção "O Que é" 
+- [X] Colocar todos os links para as páginas
+- [ ] (Página "Tipos de integração") Colocar imagem da corrente igual a seção "O Que é" 
   - [ ] "https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg"
 - [ ] Colocar animação de formButton em todos os botões
+- [ ] (nice-to-have) Colocar link de "Home" em todas as páginas
 - [ ] (nice-to-have) Ao scrollar, o header principal vira parte da navbar
 - [ ] (nice-to-have) Botões da navbar expandem onHover, mostrando os textos
   - [ ] O que é regionalização
