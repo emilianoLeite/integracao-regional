@@ -3,6 +3,7 @@ import NavigationButtons from '../components/home/navigation-buttons'
 import About from '../components/home/about'
 import IntegrationTypes from '../components/home/integration_types'
 import Quizzes from '../components/home/quizzes'
+import Team from '../components/home/team'
 
 import Head from "next/head";
 
@@ -38,6 +39,7 @@ export default function Home() {
         <About/>
         <IntegrationTypes/>
         <Quizzes/>
+        <Team/>
       </main>
     </>
   )

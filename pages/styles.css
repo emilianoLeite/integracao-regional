@@ -1790,3 +1790,9 @@
   p {
     text-align: justify;
   }
+
+  .team li {
+    margin-bottom: 6px;
+    font-family: 'Bacalisties';
+    font-size:  2.5vw;
+  }
