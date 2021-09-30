@@ -408,11 +408,12 @@
    
    .alternative-title-wrapper {
      position: relative;
-     top: -100px;
+     top: -125px;
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
+     flex-wrap: wrap;
      height: 56px;
      padding-top: 16px;
      padding-bottom: 16px;
@@ -501,6 +502,9 @@
      padding: 16px 16px 8px;
      border-right: 1px solid #332a4f;
      border-left: 1px solid #332a4f;
+     border-bottom: 1px solid #332a4f;
+     border-bottom-left-radius: 32px;
+     border-bottom-right-radius: 32px;
      background-color: #fffdef;
    }
    
