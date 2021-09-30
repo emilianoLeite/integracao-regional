@@ -87,3 +87,11 @@
   align-items: center;
   justify-content: space-around;
 }
+
+.rightAnswer {
+  background: chartreuse;
+}
+
+.wrongAnswer {
+  background: crimson;
+}
