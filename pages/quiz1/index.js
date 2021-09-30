@@ -120,7 +120,7 @@ export default class Quiz1 extends Component {
         <div className="content-centered">
           <div className="w-layout-grid testimonial-grid">
             {step <= Object.keys(questions).length ? 
-              (<div className="testimonial-card">
+              (<div className="testimonial-card" style={{border: "2px solid #FFB5A7"}}>
               <div className="testimonial-content">
                 <Question
                   title={questions[step].title}

@@ -4,8 +4,8 @@ export default function About() {
       display: "flex",
       flexWrap: "wrap",
       justifyContent: "space-evenly",
-      marginBottom: "50px",
       paddingTop: "45px",
+      background: "#F9E5D8",
     }}>
       
       <h3 

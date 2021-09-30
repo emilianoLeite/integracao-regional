@@ -2,7 +2,11 @@ import Link from 'next/link'
 
 export default function Quizzes() {
   return (
-  <section style={{marginBottom: "50px"}}>
+  <section 
+    style={{
+      marginBottom: "50px",
+      background: "#FCD2AF",
+    }}>
     
     <div className="split-section wf-section">
       <div className="split-section-image-half">

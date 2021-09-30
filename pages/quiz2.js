@@ -156,7 +156,7 @@ export default class Quiz2 extends Component {
           </div>
           <div className="w-layout-grid testimonial-grid">
             {finalPage? 
-              (<div className="testimonial-card">
+              (<div className="testimonial-card" style={{border: "2px solid #FFB5A7"}}>
               <div className="testimonial-content">
                 <Question
                   title={questions[step].title}

@@ -3,11 +3,23 @@ import Link from 'next/link'
 export default function IntegrationTypes() {
   return (
     <section 
-      style={{marginBottom: "50px"}}
       className="container no-padding-mobile"
+      style={{
+        background: "#F9DCC4",
+      }}
     >
-      <div className="content-inner-padding">
-        <div className="alternative-title-wrapper">
+      <div 
+        className="content-inner-padding"
+        style={{
+          border: "2px solid #FFB5A7"
+        }}
+      >
+        <div 
+          className="alternative-title-wrapper"
+          style={{
+            background: "#F9DCC4",
+          }}
+        >
           <h3 
             id="integration-types"
             className="alternative-title dirtylife-font"

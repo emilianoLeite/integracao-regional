@@ -18,7 +18,7 @@ export default function NavigationButtons() {
   return (
     <section 
       className="container wf-section"
-      style={{background: "#fff4ab"}}
+      style={{background: "#F8EDEB"}}
     > 
       <div>
         <div 
