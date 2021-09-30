@@ -50,7 +50,7 @@ export default function IntegrationTypes() {
               <div className="grid-wrapper">
               <div className="grid-image-wrapper">
               <img 
-                src="https://i.pinimg.com/564x/e8/87/f0/e887f0eb96d2fa532955180419680dfb.jpg" loading="lazy" 
+                src="/types/NAFTA.jpg" loading="lazy" 
                 className="image-cover"
               />
             
@@ -70,7 +70,7 @@ export default function IntegrationTypes() {
               <div className="grid-wrapper">
               <div className="grid-image-wrapper">
               <img 
-                src="uniao-aduaneira.jpg" 
+                src="/types/UAAA.jpg" 
                 loading="lazy"
                 className="image-cover"
                 />
@@ -92,7 +92,7 @@ export default function IntegrationTypes() {
               <div className="grid-wrapper">
                 <div className="grid-image-wrapper">
                   <img 
-                    src="https://i.pinimg.com/564x/8b/24/1e/8b241e36c5968e12b3e6c2aac1534832.jpg" 
+                    src="/types/MERCOSUL.jpg" 
                     loading="eager"
                     className="image-cover"
                   />
@@ -111,7 +111,7 @@ export default function IntegrationTypes() {
               <div className="grid-wrapper">
                 <div className="grid-image-wrapper">
                   <img 
-                    src="https://i.pinimg.com/564x/af/32/16/af3216d4d54884bbc4bb91afd67929ce.jpg" 
+                    src="/types/UNIAO_EUROPEIA.jpg" 
                     loading="lazy" 
                     className="image-cover"
                   />
