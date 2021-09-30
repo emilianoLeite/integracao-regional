@@ -29,6 +29,8 @@ export default function Home() {
             as="font"
             crossOrigin=""
           />
+          <link rel="shortcut icon" type="image/ico" href="https://www.fecap.br/wp-content/themes/portalv2.0/img/favicon.ico"/>
+          <title>Regionalizando</title>
         </Head>
 
       <main>
