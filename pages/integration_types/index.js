@@ -76,7 +76,7 @@ export default function IntegrationTypes() {
       flexWrap: "wrap",
       justifyContent: "space-evenly",
       paddingTop: "45px",
-      background: "rgb(238 233 229);",
+      background: "rgb(238 233 229)",
     }}>
       <img 
         src="https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg" loading="lazy" alt="" 
