@@ -1,9 +1,9 @@
 # TODOs
-- [ ] Página de "tipos de integração", com textos completos
+- [X] Página de "tipos de integração", com textos completos
   - [ ] Arrumar espaçamento entre itens
-- [ ] Reverter a seção tipos de integração pra ser uma caixa com as imagens
-  - [ ] Deixar todos os itens com o mesmo tamanho
-  - [ ] Fazer o header "tipos de integraçao regiona;l" igual a seção de about
+- [X] Reverter a seção tipos de integração pra ser uma caixa com as imagens
+  - [X] Deixar todos os itens com o mesmo tamanho
+  - [X] Fazer o header "tipos de integraçao regiona;l" igual a seção de about
 - [X] Mudar botoes da navbar pra apenas exibirem 1,2,3
 - [ ] Colocar todos os textos e imagens
 - [X] Usar as fontes custom

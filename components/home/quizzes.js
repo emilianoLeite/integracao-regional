@@ -6,12 +6,12 @@ export default function Quizzes() {
     
     <div className="split-section wf-section">
       <div className="split-section-image-half">
-        <div className="split-image bundle-image"></div>
+        <div className="split-image quiz-bundle-image"></div>
       </div>
      
       <div className="split-section-content-half">
         <div className="title-wrapper">
-        <h3 
+          <h3 
             id="quizzes"
             className="alternative-title dirtylife-font"
             style={{
@@ -22,14 +22,14 @@ export default function Quizzes() {
           >
             TESTE SEUS
           </h3>
-            <h3 
-              className="kinan-font"
-              style={{
-                marginLeft: "70px"
-              }}
-            >
-              Conhecimentos
-            </h3>
+          <h3 
+            className="kinan-font"
+            style={{
+              marginLeft: "70px"
+            }}
+          >
+            Conhecimentos
+          </h3>
           <p
             style={{fontSize:"1.6vw"}}  
           >
@@ -46,7 +46,9 @@ export default function Quizzes() {
                 transformStyle: "preserve-3d"
               }}>
                 <div className="card-bundle-image-wrapper">
-                <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 93vw, (max-width: 767px) 45vw, (max-width: 1919px) 21vw, 23vw" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide-p-1080.jpeg 1080w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e19250a3e8565db4b0fe13_follower-guide.jpg 1200w" alt="A desk with a computer and branding assets on it" className="image-cover"/>
+                <img 
+                  src="https://i.pinimg.com/564x/90/25/1b/90251b9297c7016309001f1e4aef2064.jpg" 
+                  loading="lazy" width="600" sizes="(max-width: 479px) 93vw, (max-width: 767px) 45vw, (max-width: 1919px) 21vw, 23vw" className="image-cover"/>
                 </div>
                 <div className="card-bundle-content-wrapper">
                   <h5 className="today-easter-font">Revisando seus conhecimentos</h5>
@@ -60,7 +62,9 @@ export default function Quizzes() {
               transformStyle: "preserve-3d"
             }}>
               <div className="card-bundle-image-wrapper">
-              <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg" loading="lazy" width="600" sizes="(max-width: 479px) 93vw, (max-width: 767px) 45vw, (max-width: 1919px) 21vw, 23vw" srcSet="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course-p-500.jpeg 500w, https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60e87a117dcade4fd9a909f1_crash-course.jpg 1200w" alt="2 isometric papers laid on a wall with a cactus plant in front." className="image-cover"/>
+              <img 
+                src="https://i.pinimg.com/564x/f6/3f/d1/f63fd1f18fc629eb499a38c4e80eee4a.jpg" 
+                loading="lazy" width="600" sizes="(max-width: 479px) 93vw, (max-width: 767px) 45vw, (max-width: 1919px) 21vw, 23vw" className="image-cover"/>
               </div>
             <div className="card-bundle-content-wrapper">
               <h5 className="today-easter-font">Quiz dos Bichinhos</h5>
