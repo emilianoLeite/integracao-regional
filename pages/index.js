@@ -1,12 +1,10 @@
-import Navbar from '../components/navbar'
-import Hero from '../components/hero'
-import About from '../components/about'
-import IntegrationTypes from '../components/integration_types'
-import Quizzes from '../components/quizzes'
-import NavigationButtons from '../components/navigation-buttons'
+import Hero from '../components/home/hero'
+import NavigationButtons from '../components/home/navigation-buttons'
+import About from '../components/home/about'
+import IntegrationTypes from '../components/home/integration_types'
+import Quizzes from '../components/home/quizzes'
 
 import Head from "next/head";
-
 
 export default function Home() {
   return (
@@ -31,8 +29,6 @@ export default function Home() {
             crossOrigin=""
           />
         </Head>
-
-      {/* <Navbar/> */}
 
       <main>
         <Hero/>
