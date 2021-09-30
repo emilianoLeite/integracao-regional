@@ -58,7 +58,7 @@ export default function NavigationButtons() {
               <div className="button-back-bcg"></div>
               <div className="button-top-bcg"></div>
               <div className="button-text today-easter-font" style={{fontSize: "1.8em"}} >
-                Teste seus conhecimentos
+                Testes
                 </div>
               <img src="https://assets.website-files.com/60d0b9d684d42a0424dfb8c5/60d0ba000e4b763ca38903e4_btn_arrow.svg" loading="lazy" alt="" className="button-arrow" />
             </a>
