@@ -38,8 +38,9 @@ export default function IntegrationTypes() {
             <div className="grid-wrapper">
             <div className="grid-image-wrapper">
             <img 
-              src="https://i.pinimg.com/564x/76/57/56/7657565066286f6aef13c8ec08c6f8f7.jpg" loading="lazy" 
-              className="image-cover"/>
+              src="https://i.pinimg.com/564x/e8/87/f0/e887f0eb96d2fa532955180419680dfb.jpg" loading="lazy" 
+              className="image-cover"
+            />
           
           </div>
           <div className="grid-content-wrapper">
@@ -55,7 +56,7 @@ export default function IntegrationTypes() {
             <div className="grid-wrapper">
             <div className="grid-image-wrapper">
             <img 
-              src="https://i.pinimg.com/564x/8d/a6/21/8da62144c682b057d022fe41d3ff5885.jpg" 
+              src="uniao-aduaneira.jpg" 
               loading="lazy"
               className="image-cover"
               />
