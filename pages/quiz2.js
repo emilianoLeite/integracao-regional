@@ -1,9 +1,35 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 import Question from '../components/quiz/question/question';
 import Answer from '../components/quiz/answer/multiple-answer';
 import styles from '../components/quiz/quiz.module.css'
 import Link from 'next/link';
 
+const results ={
+  1: {
+    title: 'OUSADE',
+    text: "Dias calmos num escritório resolvendo problemas comuns? Não são para você. Você, assim como o patinho radical e o hamster rolezeiro, tem uma curiosidade pelo mundo e por novas formas de se entender o sistema internacional olhando para as diversas lentes culturais e sociais que existem."
+  },
+  2: {
+    title: 'INTERNACIONALISTA PAZ E AMOR',
+    text: "Você é internacionalista da paz, a cooperação para você não é uma estratégia calculista para se chegar aos fins necessários, mas um meio de criar vínculos sustentáveis de amizade entre os países a longo prazo."
+  },
+  3: {
+    title: 'DIPLOMATA NATO',
+    text: "Corre aqui Itamaraty! Você é diplomata nato, sabe usar seus argumentos de maneira séria e concisa sem perder a linha de raciocínio, nas rodadas de negociação é observador e cauteloso, mas sempre tem uma carta na manga."
+  },
+  4: {
+    title: 'PALESTRINHA',
+    text: "Você é internacionalista palestrinha, sempre envolvide em algum congresso ou palestra, o ambiente acadêmico é o seu habitat natural, produzir conhecimento, para você, é uma forma de mudar o mundo."  
+  },
+}
+
+function finalResult(selectedAnswers) {
+  if(selectedAnswers['1'] == '2' && selectedAnswers["2"] === '3') {
+    return results["1"]
+  } else{
+    return results[[2,3,4][Math.floor(Math.random()*3)]] // random answer between 2,3 and
+  }
+}
 
 export default class Quiz2 extends Component {
 
@@ -11,67 +37,68 @@ export default class Quiz2 extends Component {
   state = {
     questions: {
       1: {
-        title: 'Identifique o <u>tipo de integração</u> descrita a seguir:',
-        subtitle: 'Voltada para um tema específico, como segurança, economia etc. Todos os países membros devem obrigatoriamente fazer parte de todas as negociações promovidas dentro da região. O intuito é facilitar transações para todos os envolvidos e, assim, fortalecer o grupo como um todo',
+        title: 'Comece escolhendo qual patinho mais te representa',
+        subtitle: null,
       },
       2: {
-        title: 'Assinale a alternativa com a explicação mais assertiva em relação ao <u>Regionalismo Aberto</u>:',
+        title: 'Qual hamster ganhou seu coração?',
         subtitle: null,
       },
       3: {
-        title: 'Sobre <u>Regionalização</u>, pode-se afirmar que:',
+        title: 'É difícil, mas escolha apenas uma dessas vaquinhas fofas',
         subtitle: null,
       },
       4: {
-        title: 'Leia o trecho a seguir:',
-        subtitle: '“Ao final da Guerra Fria, passou por um processo de reforma, e, após reconfigurar seu <i>modus operandi</i> e expandir sua linha de atuação se tornou uma organização voltada para a identificação e combate de ameaças, como o terrorismo e o narcotráfico”.',
+        title: 'Qual desses filhotes mais te chama a atenção?',
+        subtitle: null
       },
       5: {
-        title: 'Sobre os níveis de integração regional, assinale a <u>errada</u>:',
-        subtitle:null,
+        title: 'Qual duplinha de amigos é a sua preferida?',
+        subtitle: null,
       },
       6: {
-        title: 'Sobre os níveis de integração regional, assinale a alternativa <u>incorreta</u>:',
-        subtitle:null,
+        title: 'E pra finalizar, qual dos pets do grupo você escolheria para ter uma amizade sincera?',
+        subtitle: null,
       },
     },
     answers: {
       1: {
-        1: 'União Aduaneira',
-        2: 'União Monetária',
-        3: 'Mercado Comum',
-        4: 'Área de Livre Comércio',
+        1: '/quiz2/patinho1.jpeg',
+        2: '/quiz2/patinho2.jpeg',
+        3: '/quiz2/patinho3.jpeg',
+        4: '/quiz2/patinho4.jpeg',
       },
       2: {
-        1: 'Concentração da região limitada à suas fronteiras. Seu objetivo é incentivar o desenvolvimento interno nos diversos setores produtivos, com foco na industrialização',
-        2: 'Inserção dos países ao comércio multilateral, abrindo a economia para a concorrência externa',
-        3: 'Região livre de taxação de produto e baixo nível de integração',
-        4: 'Instituições de segurança que lidam de forma diplomática com os conflitos internacionais, evitando o desencadeamento de guerras',
+        1: '/quiz2/hamster1.jpeg',
+        2: '/quiz2/hamster2.jpeg',
+        3: '/quiz2/hamster3.jpeg',
+        4: '/quiz2/hamster4.jpeg',
       },
       3: {
-        1: 'É a ideia de olhar para processos que regionalizam países no âmbito macro, por meio da identificação de novos atores a uma região',
-        2: 'Movimento de fechamento regional, que tem por objetivo desenvolver as condições internas de competitividade e depois abrir o seu mercado interno para o comércio internacional',
-        3: 'Acordo pelo qual os países assumem riscos em relação a entrada facilitada de uma concorrência estrangeira. Exige maior esforço político de negociação',
-        4: 'É um conjunto de decisões que passam por ajustes e adequações políticas, visando a conformação de práticas comuns, com ganhos positivos coletivos e individuais',
+        1: 'https://i.pinimg.com/564x/d6/21/8c/d6218caae8a3a92ae0ff650833ba4f05.jpg',
+        2: 'https://i.pinimg.com/564x/17/9b/6e/179b6e0ad9d6f60d91101dc4aa5fc48b.jpg',
+        3: 'https://i.pinimg.com/564x/8e/17/8d/8e178d172b73d9d2293f03b019ee10b5.jpg',
+        4: 'https://i.pinimg.com/564x/3b/68/75/3b68751a8a14149a8aedc58ae8fcda9e.jpg',
       },
       4: {
-        1: 'OTAN',
-        2: 'ONU',
-        3: 'OMC',
-        4: 'União Europeia',
+        1: '/quiz2/filhote1.jpeg',
+        2: '/quiz2/filhote2.jpeg',
+        3: '/quiz2/filhote3.jpeg',
+        4: '/quiz2/filhote4.jpeg',
       },
       5: {
-        1: 'Trata-se de uma cooperação política, e a dimensão coletiva dos blocos resulta em redução da soberania',
-        2: 'Países entram em um acordo formal para maximizar seus ganhos',
-        3: 'Quanto maiores os esforços na tomada de decisão, o compromisso econômico e o comprometimento político dentro de uma integração, maior é o grau de aprofundamento da regionalização',
-        4: 'Seu objetivo é fortalecer as políticas públicas municipais voltadas para crianças, adolescentes, meio ambiente etc',
+        1: '/quiz2/dupla1.jpeg',
+        2: '/quiz2/dupla2.jpeg',
+        3: '/quiz2/dupla3.jpeg',
+        4: '/quiz2/dupla4.jpeg',
       },
       6: {
-        1: 'Uma área de livre comércio é uma região livre de taxação de produtos, e constitui um baixo nível de integração',
-        2: 'Em uma União Monetária, temos o nível máximo de integração, sendo a União Europeia a principal representante',
-        3: 'O Mercado Comum estabelece o livre fluxo de pessoas, bens e serviços',
-        4: 'A União Aduaneira envolve o livre comércio e tarifas igualitária somente para os países membros',
+        1: '/quiz2/pet1.jpeg',
+        2: '/quiz2/pet2.jpeg',
+        3: '/quiz2/pet3.jpeg',
+        4: '/quiz2/pet4.jpeg',
       },
+      
     },
     selectedAnswers: {
       1: null,
@@ -83,6 +110,7 @@ export default class Quiz2 extends Component {
     },
     clickedAnswer: 0,
     step: 1,
+    finalResult: {},
   }
 
   // the method that checks the correct answer
@@ -101,19 +129,33 @@ export default class Quiz2 extends Component {
 
   // method to move to the next question
   nextStep = (step) => {
-    this.setState({
+    this.setState((state, props) => ({
       step: step + 1,
-      clickedAnswer: 0
-    });
+      clickedAnswer: 0,
+      finalResult: finalResult(state.selectedAnswers),
+    }));
   }
 
   render(){
-    let { questions, answers, clickedAnswer, step, score } = this.state;
+    let { questions, answers, clickedAnswer, step } = this.state;
+    let finalPage = step <= Object.keys(questions).length
+
     return(
       <div className="container">
         <div className="content-centered">
+          <div
+            style={{display: finalPage ? "block" : "none" }}
+          >
+
+            <h1> Quiz dos Bichinhos</h1>
+            <p
+              style={{fontSize: "2vw"}}
+              >
+              Escolha alguns bichos fofinhos e diremos que tipo de internacionalista você é
+            </p>
+          </div>
           <div className="w-layout-grid testimonial-grid">
-            {step <= Object.keys(questions).length ? 
+            {finalPage? 
               (<div className="testimonial-card">
               <div className="testimonial-content">
                 <Question
@@ -155,15 +197,19 @@ export default class Quiz2 extends Component {
                       textAlign: "center"
                     }}
                   >
-                    Você finalizou o teste!
+                    Seu resultado
                   </h1>
+                  <h2 className="today-easter-font">
+                    {this.state.finalResult.title}
+
+                  </h2>
                   <p
                     style={{
                       fontSize: "2vw",
                       textAlign: "center"
                     }}
                   >
-                    Suas escolhas foram: {Object.values(this.state.selectedAnswers).join(', ')}
+                    {this.state.finalResult.text}
                   </p>
                   <Link href="/quiz2">
                     <button 

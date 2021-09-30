@@ -12,7 +12,8 @@ export default function MultipleAnswer(props) {
             onClick={() => props.checkAnswer(qAnswer)}
             key={qAnswer}>
                 <img 
-                    src="https://i.pinimg.com/564x/e8/87/f0/e887f0eb96d2fa532955180419680dfb.jpg" loading="lazy" 
+                    src={props.answer[qAnswer]}
+                    loading="lazy" 
                     className={styles.imgAnswer}
                 />
             </li>
