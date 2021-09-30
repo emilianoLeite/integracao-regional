@@ -68,10 +68,30 @@ export default function IntegrationTypes() {
         
           </div>
         </div> 
-        <article className={styles.mainText}>
-         
+           
+      </section>
 
-          
+      <section className="container no-padding-mobile" style={{
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "space-evenly",
+      paddingTop: "45px",
+      background: "rgb(238 233 229);",
+    }}>
+      <img 
+        src="https://i.pinimg.com/564x/d9/b6/2b/d9b62b351d1be0995c8aaef6897fb606.jpg" loading="lazy" alt="" 
+        style={{
+          maxWidth: "550px",
+          maxHeight: "500px",
+          "WebkitTransform": "scaleX(-1)",
+          transform: "scaleX(-1)",
+          marginLeft: "-110px",
+          marginTop: "50px",
+        }}
+      />
+      <article
+        style={{maxWidth:"600px"}}
+      >
           <p>
           Quanto maior é o esforço que envolve as tomadas de decisão sobre os aspectos daquela integração, assim como o tamanho do compromisso econômico e político para os países, maior é o grau de aprofundamento daquela regionalização.
           </p>
@@ -100,7 +120,7 @@ export default function IntegrationTypes() {
             Ou seja, é possível haver a regionalização de diversas agendas, da mesma forma que regiões mudam assim como os interesses dos atores, e também da mesma forma que a OTAN, em seu processo de reformulação, deixa de ser uma organização de natureza defensiva e passa a ser ativa na tentativa de combater o terrorismo e outras ameaças à democracia.
           </p>
 
-        </article>       
+        </article>
       </section>
     </>
   )
