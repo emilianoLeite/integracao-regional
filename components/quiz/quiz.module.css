@@ -42,8 +42,23 @@
   background-color: #a093ca;
 }
 
+.answerList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 0px;
+}
+
+.answerList[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+
 .correct {}
 .incorrect {}
+.selected {}
 .answerOption {}
 
 .answerOption.incorrect .webflowButtonTopBcg {
@@ -66,17 +81,17 @@
   background-color: #338624;
 }
 
-.answerList {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-left: 0px;
+.answerOption .imgAnswer {
+  max-width: 200px;
+  max-height: 200px;
 }
 
-.answerList[disabled] {
-  pointer-events: none;
-  opacity: 0.7;
+.answerOption.selected .imgAnswer {
+  border: 3px solid #1431c4;
+}
+
+.answerList.multiple .answerOption { 
+  padding: 5px;
 }
 
 .formButton {

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Question from '../../components/quiz/question/question';
-import Answer from '../../components/quiz/answer/answer';
+import Answer from '../../components/quiz/answer/single-answer';
 import styles from '../../components/quiz/quiz.module.css'
 import Link from 'next/link';
 
