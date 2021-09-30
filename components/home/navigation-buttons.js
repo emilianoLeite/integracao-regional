@@ -34,7 +34,7 @@ export default function NavigationButtons() {
 
       <div className="container">
         <div className="content-centered">
-          <div className="button-wrapper no-padding-top">
+          <div className="clickable button-wrapper no-padding-top">
           
             <a href="#about" className="button medium w-inline-block">
               <div className="button-back-bcg"></div>
@@ -44,7 +44,7 @@ export default function NavigationButtons() {
             </a>
           </div>
           
-          <div className="button-wrapper">
+          <div className="clickable button-wrapper">
             <a href="#integration-types" className="button medium w-inline-block">
               <div className="button-back-bcg"></div>
               <div className="button-top-bcg"></div>
@@ -53,7 +53,7 @@ export default function NavigationButtons() {
             </a>
           </div>
           
-          <div className="button-wrapper">
+          <div className="clickable button-wrapper">
             <a href="#quizzes" className="button medium w-inline-block">
               <div className="button-back-bcg"></div>
               <div className="button-top-bcg"></div>
@@ -64,7 +64,7 @@ export default function NavigationButtons() {
             </a>
           </div>
           
-          <div className="button-wrapper">
+          <div className="clickable button-wrapper">
             <a href="#team" className="button medium w-inline-block">
               <div className="button-back-bcg"></div>
               <div className="button-top-bcg"></div>

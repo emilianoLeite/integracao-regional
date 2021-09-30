@@ -43,11 +43,7 @@ export default function Quizzes() {
         <div className="flex-horizontal">
         
           <Link href="/quiz1">
-            <div className="card-bundle" style={{
-                willChange: "transform", 
-                transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", 
-                transformStyle: "preserve-3d"
-              }}>
+            <div className="clickable card-bundle">
                 <div className="card-bundle-image-wrapper">
                 <img 
                   src="https://i.pinimg.com/564x/90/25/1b/90251b9297c7016309001f1e4aef2064.jpg" 
@@ -60,10 +56,7 @@ export default function Quizzes() {
           </Link>
           
           <Link href="/quiz2">
-            <div className="card-bundle margin-top" style={{
-              willChange: "transform", transform: "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)" ,
-              transformStyle: "preserve-3d"
-            }}>
+            <div className="clickable card-bundle margin-top">
               <div className="card-bundle-image-wrapper">
               <img 
                 src="https://i.pinimg.com/564x/f6/3f/d1/f63fd1f18fc629eb499a38c4e80eee4a.jpg" 

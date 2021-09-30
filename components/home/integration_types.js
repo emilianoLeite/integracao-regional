@@ -46,7 +46,7 @@ export default function IntegrationTypes() {
         
         <div className="w-layout-grid grid-half">
           <Link href="/integration_types#integration-type-1">
-            <span className="grid-link w-inline-block">
+            <span className="clickable grid-link w-inline-block">
               <div className="grid-wrapper">
               <div className="grid-image-wrapper">
               <img 
@@ -66,7 +66,7 @@ export default function IntegrationTypes() {
           </Link>
          
           <Link href="/integration_types#integration-type-2">
-            <span className="grid-link w-inline-block">
+            <span className="clickable grid-link w-inline-block">
               <div className="grid-wrapper">
               <div className="grid-image-wrapper">
               <img 
@@ -88,7 +88,7 @@ export default function IntegrationTypes() {
           </Link>
          
           <Link href="/integration_types#integration-type-3">
-            <span className="grid-link w-inline-block">
+            <span className="clickable grid-link w-inline-block">
               <div className="grid-wrapper">
                 <div className="grid-image-wrapper">
                   <img 
@@ -107,7 +107,7 @@ export default function IntegrationTypes() {
           </Link>
          
           <Link href="/integration_types#integration-type-4">
-            <span className="grid-link w-inline-block">
+            <span className="clickable grid-link w-inline-block">
               <div className="grid-wrapper">
                 <div className="grid-image-wrapper">
                   <img 
